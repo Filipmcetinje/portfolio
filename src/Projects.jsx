@@ -9,7 +9,7 @@ function Projects() {
         title="Art Gallery Explorer"
         description="React app using The Met Museum API to search and explore artwork."
         github="https://github.com/Filipmcetinje/art-gallery-frontend"
-        demo="https://art-gallery-frontend.vercel.app/"
+        demo="https://filipmcetinje.github.io/art-gallery-frontend/"
       />
 
       <ProjectCard
