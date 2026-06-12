@@ -15,6 +15,8 @@ function Projects() {
       <ProjectCard
         title="WTWR Weather App"
         description="Full-stack weather app with frontend, backend, and user interaction."
+        github="https://github.com/Filipmcetinje/se_project_react"
+        demo="https://filipmcetinje.github.io/se_project_react/"
       />
 
       <ProjectCard
