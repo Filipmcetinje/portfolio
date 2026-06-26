@@ -7,15 +7,17 @@ function Projects() {
 
       <ProjectCard
         title="Art Gallery Explorer"
-        description="React app using The Met Museum API to search and explore artwork."
-        github="https://github.com/Filipmcetinje/art-gallery-frontend"
+        description="Full-stack art gallery application with React, Node.js, Express, MongoDB, and JWT authentication. Browse artwork, create an account, and save favorites."
+        frontendGithub="https://github.com/Filipmcetinje/art-gallery-frontend"
+        backendGithub="https://github.com/Filipmcetinje/art-gallery-backend"
         demo="https://filipmcetinje.github.io/art-gallery-frontend/"
       />
 
       <ProjectCard
         title="WTWR Weather App"
-        description="Full-stack weather app with frontend, backend, and user interaction."
-        github="https://github.com/Filipmcetinje/se_project_react"
+        description="Full-stack weather application built with React, Node.js, Express, MongoDB, and JWT authentication. Users can manage clothing items based on weather conditions."
+        frontendGithub="https://github.com/Filipmcetinje/se_project_react"
+        backendGithub="https://github.com/Filipmcetinje/se_project_express"
         demo="https://filipmcetinje.github.io/se_project_react/"
       />
 

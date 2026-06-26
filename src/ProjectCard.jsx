@@ -1,14 +1,26 @@
-function ProjectCard({ title, description, github, demo }) {
+function ProjectCard({
+  title,
+  description,
+  frontendGithub,
+  backendGithub,
+  demo,
+}) {
   return (
     <div className="project-card">
       <h3>{title}</h3>
       <p>{description}</p>
 
-      {(github || demo) && (
+      {(frontendGithub || backendGithub || demo) && (
         <div className="project-links">
-          {github && (
-            <a href={github} target="_blank" rel="noopener noreferrer">
-              GitHub
+          {frontendGithub && (
+            <a href={frontendGithub} target="_blank" rel="noopener noreferrer">
+              Frontend GitHub
+            </a>
+          )}
+
+          {backendGithub && (
+            <a href={backendGithub} target="_blank" rel="noopener noreferrer">
+              Backend GitHub
             </a>
           )}
 
